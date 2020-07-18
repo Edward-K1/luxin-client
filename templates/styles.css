@@ -1,0 +1,55 @@
+nav{
+    height: 2.6rem;
+    background-color: orangered;
+    color: white;
+}
+body{
+    background-color: rgb(247, 247, 247);
+    margin: 0px;
+    width: 100%;
+}
+
+a, .logo-text{
+    text-decoration: none;
+}
+
+.logo-text{
+    font-size: 1.8rem;
+    color: white;
+    margin-left: 3.2em;
+}
+
+select{
+    width: 16rem;
+    background-color: orangered;
+    color: white;
+    padding: 0.315rem;
+    font-size: 1rem;
+
+
+}
+
+#div-select{
+    width: fit-content;
+    border: 0.1rem solid orangered;
+    border-radius: 0.5rem;
+    height: auto;
+    margin: auto;
+    margin-top: 8rem;
+    text-align: center;
+    padding: 1.25rem;
+    
+}
+
+.btn-start{
+    padding: 0.5rem;
+    color: white;
+    background-color: orangered;
+    border-radius: 0.5rem;
+    margin: 1.8rem;
+    width: 8rem;
+    border-style: none;
+    font-size: 1rem;
+    vertical-align: center;
+}
+
