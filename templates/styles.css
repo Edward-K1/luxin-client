@@ -34,20 +34,18 @@ select{
     width: fit-content;
     border: 0.1rem solid orangered;
     border-radius: 0.5rem;
-    height: auto;
-    margin: auto;
-    margin-top: 8rem;
+    margin: 8rem auto;
     text-align: center;
     padding: 1.25rem;
-    background-color: rgba(247, 247, 247,0.7);
-    
+    background-color: rgba(247, 247, 247,0.7);  
 }
 
 #div-quiz{
-    /* width: 31.25rem; */
+    /* larger screens handled by media query **/
+    width: 17.5rem;
     background-color: rgba(247, 247, 247,0.9);
     font-size: 1.25rem;
-    position: absolute;
+    display: table;
     
 }
 .btn-start{
@@ -109,4 +107,10 @@ hr{
     margin: 0.2rem;
     border-style: solid;
     border-color:orangered;
+}
+
+@media only screen and (min-width: 600px){
+    #div-quiz{
+        width: 31.25rem;
+    }
 }
