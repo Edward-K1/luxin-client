@@ -2,9 +2,10 @@ nav{
     height: 2.6rem;
     background-color: orangered;
     color: white;
+    width: 100%;
 }
 body{
-    margin: 0px;
+    margin: 0rem;
     background-color: #ec6f0b;
     background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23fbfbfb' fill-opacity='0.4'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
@@ -29,7 +30,7 @@ select{
 
 }
 
-#div-select{
+#div-select, #div-quiz{
     width: fit-content;
     border: 0.1rem solid orangered;
     border-radius: 0.5rem;
@@ -42,6 +43,13 @@ select{
     
 }
 
+#div-quiz{
+    /* width: 31.25rem; */
+    background-color: rgba(247, 247, 247,0.9);
+    font-size: 1.25rem;
+    position: absolute;
+    
+}
 .btn-start{
     padding: 0.5rem;
     color: white;
@@ -58,4 +66,47 @@ select{
     margin: 0.3rem 2rem;
     float: right;
     font-size: 2rem;
+}
+hr{
+    color: orangered;
+    background-color: orangered;
+}
+
+.number{
+    float: left;
+    margin-left: 0.4rem;
+    font-weight: bold;
+    color: orangered;
+}
+.timer{
+    float: right;
+    margin-right: 0.4rem;
+    font-weight: bold;
+    color: orangered;
+
+}
+.div-answer-option{
+    width: 90%;
+    background-color: thistle;
+    height: auto;
+    margin:0.5rem 0.5rem;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+}
+
+.div-answer-option:hover, .div-answer-option::selection{
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-action{
+    padding: 0.4rem 1.8rem;
+    background-color: orangered;
+    color: white;
+    border-radius: 0.4rem;
+    float: right;
+    margin: 0.2rem;
+    border-style: solid;
+    border-color:orangered;
 }
